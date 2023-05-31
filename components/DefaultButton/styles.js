@@ -10,3 +10,13 @@ export const Container = styled(TouchableOpacity)`
   padding: 16px 0px;
   flex-direction: row;
 `;
+
+export const ButtonTitle = styled.Text`
+  color: #ffffff;
+  font-weight: 600;
+  font-size: ${RFValue(16)}px;
+`;
+
+export const Loader = styled(ActivityIndicator)`
+  margin-left: 8px;
+`;
