@@ -9,3 +9,9 @@ export const Container = styled(TouchableOpacity)`
   border-radius: 50px;
   padding: 16px 0px;
 `;
+
+export const ButtonTitle = styled.Text`
+  color: #173ea5;
+  font-weight: 600;
+  font-size: ${RFValue(16)}px;
+`;
