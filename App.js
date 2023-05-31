@@ -1,5 +1,13 @@
-import React from "react";
+import React from 'react';
+import { AppProvider } from './src/hooks';
+import { Routes } from './src/routes';
 
 export default function App() {
-  return <div>hello world</div>;
+    return (
+        <AppProvider>
+            <Routes />
+        </AppProvider>
+    );
 }
+
+
